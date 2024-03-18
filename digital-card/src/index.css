@@ -1,0 +1,123 @@
+body{
+    height: 1000px;
+}
+.main{
+  border-color: black;
+  border-style: solid; 
+  border-width: 5px;
+  height: 770px;
+  width: 317px;
+  /* position: fixed; */
+  margin-left: 620px;
+  display: flex;
+  flex-direction: column;
+
+}
+.image{
+    width: 317px;
+    height: 317px;
+    margin: 0;
+    background-color: #1A1B21;
+    object-fit: cover;
+    
+}
+.group2{
+    width: 317px;
+    height: 399px;
+    background-color:#1A1B21;
+    margin-top:-5px;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    width: 178.06px;
+    height:25.81px;
+    color: white;
+    text-align: center;
+    /* margin-top: 30px; */
+    margin-bottom: 0;
+    margin-left: 70px;
+}
+.text{
+    width: 178.06px;
+    height:14.19px;
+    margin-top: 6px;
+    margin-left: 98px;
+    color: #F3BF99;
+    font-family: 'Inter', sans-serif;
+    font-size: 12.8px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.web{
+    width: 228px;
+    height:16px;
+    margin:0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 10.6px;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+
+}
+.btn,.btn1{
+    width: 115px;
+    margin-left: 29px;
+    padding: 10px;
+    border-radius: 22px;
+    border: none;
+
+    
+    
+}
+.b1{
+display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-family:'Inter', sans-serif;;
+}
+.btn1{
+    background-color: #5093E2;
+}
+.content{
+    margin-top: 20px;
+}
+.content>h3{
+    color: white;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    width: 247px;
+    height: 21px;
+    margin-left: 37.5px;
+}
+.content>p{
+    color: white;
+    font-family: 'Inter',sans-serif;
+    font-size: 10px;
+    width: 247px;
+    /* padding: 10px; */
+    margin-left: 35px;
+    line-height: 17px;
+}
+.footer{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 40px;
+    background-blend-mode: normal;
+    background-color:peru;
+    padding-top:15px;
+    padding-left: 63px;
+} 
+.last{
+    width: 25px;
+    margin-left: 20px;
+    height: 25px;
+    
+}

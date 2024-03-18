@@ -1,0 +1,146 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  /* height: 1000px; */
+}
+.header{
+  width: 855px;
+  height: 65px;
+  background-color:#672280;
+  display: flex;
+  padding-left: 20px;
+  padding-top: 11px;
+}
+.img{
+  width: 40px;
+  height: 40px;
+}
+.mid{
+  /* Meme Generator */
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 20.7482px;
+line-height: 24px;
+letter-spacing: -0.1em;
+color: #FFFFFF;
+margin-left: 15px;
+margin-top: 6px;
+}
+.right{
+  /* React Course - Project 3 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 15px;
+text-align: right;
+margin-left: 450px;
+color: #FFFFFF;
+margin-top: 11px;
+}
+.sec{
+  margin-left:100px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: black; */
+  width: 650px;
+  height: 600px;
+}
+.search{
+  width: 270px;
+  height: 35px;
+  margin-left: 37px;
+  /* border: none; */
+  /* margin-left: 27.5px;
+  margin-right: 27.5px; */
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: gray;
+}
+.btn{
+  background-color: #711F8D;
+  border: none;
+  height: 40px;
+  width:576px;
+  margin-left: 37px;
+  margin-top: 20px;
+  border-radius: 5px;
+
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.1em;
+
+  color: #FFFFFF;
+
+
+
+}
+.imagg{
+  width: 575px;
+  height: 400px;
+  /* background-color: aqua; */
+  margin-left: 37px;
+  margin-top: 35px;
+  position: relative;
+}
+.imagg>img{
+  width: 575px;
+  height: 400px;
+
+}
+.toptext{
+  position: absolute;
+  top: 0px;
+  left: 20%;
+  text-align: center;
+  /* transform: translateX(-50%); */
+  width: 80%;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+.bottomtext{
+  position: absolute;
+  bottom: 0px;
+  left: 20%;
+  width: 80%;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
